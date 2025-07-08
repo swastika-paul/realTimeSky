@@ -145,7 +145,7 @@ cursor: pointer;
         padding: 0%;
         font-size: 30px;}
      #box{
-    margin-top: 100px;
+    margin-top: 200px;
     height: 50%;
     width: 50%;
     
@@ -153,6 +153,45 @@ cursor: pointer;
 #weather{
      color:aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.temp{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.place{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+.date{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+.time{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+.climate{
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.description{
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.humidity{
+    font-size: 20px;
+    font-weight: 600;
+    
+
 }
 
 }
