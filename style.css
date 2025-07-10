@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+     
+}
+html,body{
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    
+}
+#main{
+    height:100%;
+    width:100%;
+     background-color: rgb(243, 241, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#weather{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    color:aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#box{
+    font-weight: 500;
+    font-size: 45px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    display: none;
+    
+
+}
+.temp{
+    font-size: 100px;
+    font-weight: 600;
+    
+}
+.place{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.date{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.time{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.climate{
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.description{
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.humidity{
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+#panel {
+height: 70%;
+color: white;
+font-size: 25px;
+overflow-y: scroll;
+overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  
+}
+.search{
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+.submit{
+cursor: pointer;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+.submit:hover{
+    color: skyblue;
+    transition: 0.3s;
+}
+.search::placeholder{
+    color: white;
+    font-size: 20px;
+}
+#panel ul{
+    border-bottom: 1px solid white;
+    animation: slideright 3s ease forwards;
+}
+
+
+@keyframes slideright {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.detail{
+    margin-top: 40px;
+    
+}
+@media (max-width: 600px) {
+    .detail{
+        margin-top: 10px;
+    }
+    #panel{
+        width: 330px;
+        margin-top: 50px;
+    }
+    #weather{
+        margin:0%;
+        padding: 0%;
+        font-size: 30px;}
+     #box{
+    margin-top: 200px;
+    height: 50%;
+    width: 50%;
+    
+}
+#weather{
+     color:aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.temp{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.place{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+.date{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+.time{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+.climate{
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.description{
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.humidity{
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+
+}
+    
